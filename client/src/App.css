@@ -1,0 +1,139 @@
+.text-glow{
+  text-shadow: 0 0 6px rgba(30, 184, 84, 0.6),  /* Light green glow */
+               0 0 12px rgba(30, 184, 84, 0.4), /* Medium green glow */
+               0 0 18px rgba(30, 184, 84, 0.3), /* Softer green glow */
+               0 0 24px rgba(30, 184, 84, 0.2); /* Subtle green glow */
+}
+
+/* From Uiverse.io by alexmaracinaru */ 
+.button1 {
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #1EB854;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: black;
+}
+
+.button1:hover {
+  background: #1EB854;
+}
+
+.button1 > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.button1:hover svg {
+  transform: translateX(5px);
+}
+
+.button1:active {
+  transform: scale(0.95);
+}
+
+/* From Uiverse.io by Yaya12085 */ 
+.card {
+  /* margin-left: -1rem;
+  margin-right: -1rem; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-bottom: 2rem;
+  /* width: 320px; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  /* background-color: #19362d; */
+  padding: 1.5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  /* color: #1EB854; */
+}
+
+.price {
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 700;
+  /* color: #fff; */
+}
+
+.desc {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.625;
+  color: rgba(156, 163, 175, 1);
+}
+
+.lists {
+  margin-bottom: 1.5rem;
+  flex: 1 1 0%;
+  color: rgba(156, 163, 175, 1);
+}
+
+.lists .list {
+  margin-bottom: 0.5rem;
+  display: flex;
+  margin-left: 0.5rem
+}
+
+.lists .list svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+  /* color: rgba(167, 139, 250, 1); */
+}
+
+.action {
+  border: none;
+  outline: none;
+  display: inline-block;
+  border-radius: 0.25rem;
+  /* background-color: rgba(167, 139, 250, 1); */
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: rgba(17, 24, 39, 1);
+}
+
+.color-picker{
+  -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          width: 40px;
+          height: 40px;
+          border: none;
+          border-radius: 50%; /* makes it round */
+          cursor: pointer;
+          overflow: hidden;
+}
+
+.color-picker::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
+
+.color-picker::-moz-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
